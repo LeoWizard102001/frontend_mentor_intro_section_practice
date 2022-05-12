@@ -1,0 +1,153 @@
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+    font-family: Epilogue, Helvetica;
+}
+body {
+    background-color: hsl(0, 0%, 98%);
+}
+a {
+    color: hsl(0, 0%, 41%);
+    text-decoration: none;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    min-height: 10vh;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+nav #logo {
+    text-align: center;
+}
+#logo img {
+    /* margin-bottom: 0; */
+    margin-left: 3vw;
+    margin-right: 2.5vw;
+    padding-top: 1vh;
+}
+nav .nav-items {
+    display: flex;
+}
+.nav-items a {
+    margin-left: 2.5vw;
+    /* padding-bottom: 5px; */
+}
+nav .join {
+    display: flex;
+    margin-right: 3vw;
+    margin-left: auto;
+}
+.join div {
+    display: block;
+    margin-left: 2vw;
+    color: hsl(0, 0%, 41%);
+    border-radius: 10px;
+}
+.join div:nth-child(1) {
+    padding: 10px 15px;
+    border: none;
+    background-color: transparent;
+}
+.join div:nth-child(2) {
+    border: 1px solid hsl(0, 0%, 41%);
+    background-color: transparent;
+    padding: 10px 15px;
+}
+
+/* Hero Section */
+#landing-page {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto auto 10vh auto;
+    margin-right: auto;
+    max-width: 80vw;
+}
+.hero-content {
+    text-align: start;
+    flex: 1 1 50vw;
+}
+.hero-img {
+    text-align: right;
+    flex: 1 1 30vw;
+}
+.hero-img img {
+    max-height: 80vh;
+    max-width: 30vw;
+    margin-right: 0;
+}
+.hero-text h1 {
+    font-size: 5rem;
+    color: hsl(0, 0%, 8%);
+}
+.hero-text .para {
+    line-height: 1.5;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    color: hsl(0, 0%, 41%);
+}
+.hero-button {
+    padding: 15px 20px 15px 20px;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 98%);
+    font-weight: 700;
+    border-radius: 10px;
+}
+.support-links {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+.support-links img {
+    margin-right: 2.5vw;
+}
+
+
+.drop {
+    display: flex;
+    flex-direction: row;
+}
+
+.dropbtn {
+    padding: 5px 5px 5px 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
